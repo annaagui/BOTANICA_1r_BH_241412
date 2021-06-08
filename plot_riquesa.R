@@ -12,3 +12,4 @@ riqesp <- sapply(riqespdata, length)
 
 ## Plot
 plot(riqesp ~levels(mask), main="Riquesa específica Collserola", ylab="Riquesa Específica", xlab="Distància (m)", type='l')
+
